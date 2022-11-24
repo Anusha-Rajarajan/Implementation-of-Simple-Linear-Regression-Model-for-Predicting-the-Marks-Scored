@@ -22,10 +22,6 @@ Developed by: Anusha R
 RegisterNumber: 212221230006
 
 /*
-Program to implement the simple linear regression model for predicting the marks scored.
-Developed by: Deepika.j
-RegisterNumber: 212221230016
-
 import pandas as pd
 import numpy as np
 df=pd.read_csv('student_scores.csv')
@@ -63,22 +59,24 @@ mae=mean_absolute_error(Y_test,Y_pred)
 print('MAE = ',mae)
 rmse=np.sqrt(mse)
 print('RMSE = ',rmse)
-/*
 
-
-
-
-*/
 ```
 
 ## Output:
-
-
-
-![ab](https://user-images.githubusercontent.com/94747031/193340375-75a3d817-aa58-4715-b7b0-91185d6b8ff1.png)
-![bc](https://user-images.githubusercontent.com/94747031/193340377-682adf7d-ad7f-4fed-a700-910b4b5daaae.png)
-![cd](https://user-images.githubusercontent.com/94747031/193340380-7f61afa0-cf71-4c91-aee6-1fffddd0eb13.png)
-
+### dataset
+![output](./s1.png)
+### head
+![output](./s2.png)
+### tail
+![output](./s3.png)
+### X,Y
+![output](./s4.png)
+### training set(hour vs score)
+![output](./s5.png)
+### test set(hour vs score)
+![output](./s8.png)
+### MSE,MAE,RMSE
+![output](./s7.png)
 
 ## Result:
 Thus the program to implement the simple linear regression model for predicting the marks scored is written and verified using python programming.
